@@ -1,4 +1,9 @@
-/* Los estilos se aplican a todo el documento */
-body {background-image:linear-gradient(135deg, rgb(233, 190, 190), rgb(60, 88, 95))
-    
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+body {background-image:linear-gradient(135deg, rgb(233, 190, 190), rgb(0, 0, 0)),
+    url();
+    back
+    color: #000;
+  font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
