@@ -1,9 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
-body {background-image:linear-gradient(135deg, rgb(233, 190, 190), rgb(0, 0, 0)),
-    url();
-    back
-    color: #000;
-  font-family: "Estonia", cursive;
-  font-weight: 400;
+body { 
+  background-image: url("../assets/images/background2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+
+color: aliceblue;
+
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+section {
+
+
+  background-color: rgba(255,255,255,0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 4%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  max-width: 900px;
+
+
+}
+
+h1{
+  text-align: center;
+}
+
+.sub{
+  text-align: center;
+}
+.profile {
+  border-radius: 5%;
+  width: 250px;
+  height: 400px;
+  margin: center;
+  
+}
+
+.icons {
+  list-style: none;
+}
+
+
+.icons li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.icons img{
+  width: 48px;
 }
